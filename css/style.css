@@ -1,4 +1,21 @@
-/* boquita el + grande */
-/*# sourceMappingURL=style.scss.map */
+/* efecto parallax */
+.parallax {
+  height: 25rem;
+  width: 100%;
+  /* efecto parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*PARALLAX DIVs FOTOS*/
+#gruas {
+  background-image: url("../images/gruas.jpg");
+}
+
+#camion {
+  background-image: url("../images/camion.jpg");
+}
 
 /*# sourceMappingURL=style.css.map */
