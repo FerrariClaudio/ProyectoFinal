@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/_parallax.scss"],"names":[],"mappings":"AAAA;AACA;EACI;EACA;AAEA;EACA;EACA;EACA;EACA;;;AAGF;AACA;EACI;;;AAEN;EACI","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/_estilos-generales.scss","../sass/_parallax.scss","../sass/style.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EAEA;;;AAGJ;EAEQ;EACA;EACA;EACA;;;ACZR;AACA;EACI;EACA;AAEA;EACA;EACA;EACA;EACA;;;AAGF;AACA;EACI;;;AAEN;EACI;;;ACbJ","file":"style.css"}
