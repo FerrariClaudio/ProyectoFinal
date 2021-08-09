@@ -2,17 +2,13 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
   background-color: #dae1e7ff;
-  background-image: linear-gradient(to bottom, #dae1e7ff, #ECFEFD);
+  font-family: "Poppins", sans-serif;
 }
-body .navbar {
+* .navbar {
   background-color: #27496dff;
 }
-body h1, body h2, body h3, body h4 {
+* h1, * h2, * h3, * h4 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   padding-top: 3rem;
