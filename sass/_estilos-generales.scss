@@ -1,15 +1,30 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: $gainsboro;
-    font-family: 'Poppins', sans-serif;
 }
 
-h1, h2, h3, h4 {
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: $gainsboro;
+
+    .navbar {
+        background-color: $indigo-dye;
+
+    }
+    
+    h1, h2, h3, h4 {
     
         font-family: 'Open Sans', sans-serif;
         font-weight: 600;
         padding-top: 3rem;
         padding-bottom: 3rem;
+    }
+
 }
+
+
+
+
+
+
 
