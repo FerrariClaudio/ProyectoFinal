@@ -2,22 +2,34 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #dae1e7ff;
-  font-family: "Poppins", sans-serif;
 }
-* .navbar {
-  background-color: #27496dff;
-}
-* h1, * h2, * h3, * h4 {
+
+h1, h2, h3, h4 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #dae1e7ff;
+  background-image: linear-gradient(to bottom, #dae1e7ff, #ECFEFD);
+}
+body .navbar {
+  background-color: #27496dff;
+}
+body .carousel-inner {
+  height: 41rem;
+}
+body .tarjetas:hover {
+  border-style: solid;
+  border-color: #142850ff;
+}
+
 /* efecto parallax */
 .parallax {
-  height: 25rem;
+  height: 30rem;
   width: 100%;
   /* efecto parallax */
   background-attachment: fixed;

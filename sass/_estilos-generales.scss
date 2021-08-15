@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+h1, h2, h3, h4 {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: $gainsboro;
@@ -13,15 +21,24 @@ body {
 
     }
     
-    h1, h2, h3, h4 {
-    
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 600;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+    .carousel-inner{
+     height: 41rem;
     }
 
+    .tarjetas{ 
+        &:hover{ 
+            border-style: solid;
+            border-color: $space-cadet;
+            
+
+        }
+
+     }
+
+    
+
 }
+
 
 
 
